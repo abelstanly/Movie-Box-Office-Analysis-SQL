@@ -13,13 +13,23 @@
 
 This project analyses **4,535 films released between 2000 and 2017** using the Cisco Networking Academy Movies dataset.
 
-The project combines **SQL analysis** with **Microsoft Excel reporting** to investigate movie box-office performance across revenue, profit, return on investment (ROI), production budget, language, popularity, runtime, and audience ratings.
+The project combines **SQL analysis** with **Microsoft Excel** to investigate movie box-office performance across:
 
-The objective is to turn raw movie data into meaningful business insights about **commercial performance and production efficiency**.
+- Revenue
+- Profit
+- Return on Investment (ROI)
+- Production Budget
+- Original Language
+- Popularity
+- Runtime
+- Audience Ratings
+- Yearly Performance
+
+The objective is to transform raw movie data into meaningful insights about **commercial performance, profitability, and production efficiency**.
 
 ---
 
-## 🎯 Business Questions
+# 🎯 Business Questions
 
 The analysis answers the following questions:
 
@@ -61,7 +71,7 @@ The reported average ROI of **234,252.8%** is extremely high because percentage 
 
 Therefore, this figure should be interpreted as a **dataset-level comparative efficiency metric**, rather than a typical industry-wide average.
 
-The SQL ROI analysis also applies a **$1 million minimum budget filter** to reduce the influence of micro-budget outliers. 
+The SQL ROI analysis also applies a **$1 million minimum budget filter** to reduce the influence of micro-budget outliers.
 
 ---
 
@@ -69,9 +79,11 @@ The SQL ROI analysis also applies a **$1 million minimum budget filter** to redu
 
 ## 💰 1. Revenue and ROI tell different stories
 
-High-budget productions generate the highest average revenue, but the largest box-office numbers do not necessarily translate into the strongest percentage returns.
+High-budget productions generate the highest average revenue, but the largest box-office numbers do not necessarily produce the strongest percentage returns.
 
 The budget-tier analysis shows that **mid-budget films can achieve significantly stronger average ROI than blockbuster productions**.
+
+This demonstrates why revenue and ROI should be evaluated separately.
 
 ---
 
@@ -81,7 +93,7 @@ The ROI analysis identifies films that generated several times their original pr
 
 For example, **Get Out** achieved an exceptionally high ROI despite its relatively small production budget.
 
-This demonstrates why evaluating **ROI alongside total revenue** provides a more complete picture of financial performance.
+This highlights how smaller productions can deliver strong financial efficiency.
 
 ---
 
@@ -89,15 +101,15 @@ This demonstrates why evaluating **ROI alongside total revenue** provides a more
 
 English-language films account for the largest share of revenue within the analysed dataset.
 
-However, the language analysis also shows that non-English films can achieve competitive average performance when profitability and ROI are considered.
+However, non-English films can still achieve competitive performance when profitability and ROI are considered.
 
 ---
 
 ## 📈 4. Box-office performance changed over time
 
-Annual revenue increased substantially across the 2000–2017 period, with strong overall performance during the later years of the dataset.
+Annual revenue changed significantly throughout the 2000–2017 period.
 
-The Excel workbook provides a dedicated year-by-year trend analysis to visualise these changes.
+The Excel analysis provides a year-by-year revenue trend to show how overall box-office performance evolved over time.
 
 ---
 
@@ -105,7 +117,7 @@ The Excel workbook provides a dedicated year-by-year trend analysis to visualise
 
 The SQL analysis combines audience ratings, revenue and vote counts to identify films that performed strongly both commercially and with audiences.
 
-This provides a more meaningful definition of success than looking at revenue alone.
+This provides a broader view of movie success beyond box-office revenue alone.
 
 ---
 
@@ -126,8 +138,6 @@ The SQL component contains **10 core queries plus 1 bonus query**.
 | **09** | Runtime vs revenue | `CASE WHEN`, grouping |
 | **10** | Most productive years | Aggregation, calculated metrics |
 | **Bonus** | English vs non-English comparison | Derived table + `CASE` |
-
-The SQL script uses business-question-driven comments throughout the analysis and defines a `movies` table containing fields such as title, budget, revenue, runtime, popularity, release date, audience rating, vote count and original language.
 
 ---
 
