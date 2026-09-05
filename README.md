@@ -49,8 +49,6 @@ The analysis answers the following questions:
 
 # 📊 Key Results
 
-The Excel analysis provides the following project-level metrics:
-
 | Metric | Result |
 |---|---:|
 | Source dataset | **4,535 films** |
@@ -71,7 +69,7 @@ The reported average ROI of **234,252.8%** is extremely high because percentage 
 
 Therefore, this figure should be interpreted as a **dataset-level comparative efficiency metric**, rather than a typical industry-wide average.
 
-The SQL ROI analysis also applies a **$1 million minimum budget filter** to reduce the influence of micro-budget outliers.
+The SQL ROI analysis applies a **$1 million minimum budget filter** to reduce the influence of micro-budget outliers.
 
 ---
 
@@ -82,8 +80,6 @@ The SQL ROI analysis also applies a **$1 million minimum budget filter** to redu
 High-budget productions generate the highest average revenue, but the largest box-office numbers do not necessarily produce the strongest percentage returns.
 
 The budget-tier analysis shows that **mid-budget films can achieve significantly stronger average ROI than blockbuster productions**.
-
-This demonstrates why revenue and ROI should be evaluated separately.
 
 ---
 
@@ -117,7 +113,51 @@ The Excel analysis provides a year-by-year revenue trend to show how overall box
 
 The SQL analysis combines audience ratings, revenue and vote counts to identify films that performed strongly both commercially and with audiences.
 
-This provides a broader view of movie success beyond box-office revenue alone.
+---
+
+# 📸 Screenshots & Visual Results
+
+The following screenshots provide visual evidence of the SQL query outputs and Excel analysis.
+
+---
+
+## 🧮 SQL Query Results
+
+### 1. Top 10 Highest-Grossing Films
+
+![Top 10 Highest-Grossing Films](./ScreenShots/sql-results/01_top_grossing_films.jpg)
+
+---
+
+### 2. Top Films by ROI
+
+![Top Films by ROI](./ScreenShots/sql-results/02_top_films_by_roi.jpg)
+
+---
+
+### 3. Revenue by Original Language
+
+![Revenue by Original Language](./ScreenShots/sql-results/03_revenue_by_language.jpg)
+
+---
+
+### 4. Budget Tier Analysis
+
+![Budget Tier Analysis](./ScreenShots/sql-results/04_budget_tier_analysis.jpg)
+
+---
+
+## 📊 Excel Analysis & Dashboard
+
+### 5. Project Summary & KPI Dashboard
+
+![Project Summary and KPI Dashboard](./ScreenShots/excel-dashboard/01_summary_kpis.jpg)
+
+---
+
+### 6. Annual Box Office Revenue Trend
+
+![Annual Box Office Revenue Trend](./ScreenShots/excel-dashboard/02_revenue_trend.jpg)
 
 ---
 
@@ -141,7 +181,7 @@ The SQL component contains **10 core queries plus 1 bonus query**.
 
 ---
 
-# 🛠️ SQL Skills Demonstrated
+## 🛠️ SQL Skills Demonstrated
 
 ```text
 SELECT
