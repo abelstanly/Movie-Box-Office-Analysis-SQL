@@ -29,7 +29,7 @@ The objective is to transform raw movie data into meaningful insights about **co
 
 ---
 
-# 🎯 Business Questions
+## 🎯 Business Questions
 
 The analysis answers the following questions:
 
@@ -77,7 +77,7 @@ The SQL ROI analysis also applies a **$1 million minimum budget filter** to redu
 
 # 🔎 Key Findings
 
-## 💰 1. Revenue and ROI tell different stories
+### 💰 1. Revenue and ROI tell different stories
 
 High-budget productions generate the highest average revenue, but the largest box-office numbers do not necessarily produce the strongest percentage returns.
 
@@ -87,7 +87,7 @@ This demonstrates why revenue and ROI should be evaluated separately.
 
 ---
 
-## 🎬 2. Low-budget films can generate exceptional returns
+### 🎬 2. Low-budget films can generate exceptional returns
 
 The ROI analysis identifies films that generated several times their original production budgets.
 
@@ -97,7 +97,7 @@ This highlights how smaller productions can deliver strong financial efficiency.
 
 ---
 
-## 🌍 3. English-language films dominate revenue
+### 🌍 3. English-language films dominate revenue
 
 English-language films account for the largest share of revenue within the analysed dataset.
 
@@ -105,7 +105,7 @@ However, non-English films can still achieve competitive performance when profit
 
 ---
 
-## 📈 4. Box-office performance changed over time
+### 📈 4. Box-office performance changed over time
 
 Annual revenue changed significantly throughout the 2000–2017 period.
 
@@ -113,7 +113,7 @@ The Excel analysis provides a year-by-year revenue trend to show how overall box
 
 ---
 
-## ⭐ 5. Critical and commercial success can overlap
+### ⭐ 5. Critical and commercial success can overlap
 
 The SQL analysis combines audience ratings, revenue and vote counts to identify films that performed strongly both commercially and with audiences.
 
