@@ -3,7 +3,7 @@
 --  Author  : Abel Dani Stanly
 --  Course  : Cisco NetAcad – Data Analytics Essentials
 --  Dataset : Movie Database (4,535 films, 2000–2017)
---  Tools   : SQL (compatible with SQLite / MySQL / PostgreSQL)
+--  Tools   : MySQL-compatible SQL
 -- ============================================================
 --
 -- TABLE SCHEMA (reference):
